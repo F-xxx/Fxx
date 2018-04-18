@@ -141,11 +141,6 @@ class SaltApi(object):
 def main():
     #sapi = SaltApi(url='',username='',password='')
     sapi = SaltApi(url='https://10.0.0.1:888', username='xxx', password='123')
-<<<<<<< HEAD
-=======
-    jid = sapi.remote_execution('localhost', 'cmd.run', 'df;echo ":::"$?', 'list')
->>>>>>> 40477cb4543dd772cd73f60074afcdf2b4b29b6a
-    res = sapi.salt_alive('*')
 
 if __name__ == '__main__':
     main()
